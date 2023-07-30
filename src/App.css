@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  width: 500px;
+  min-height: 90vh;
+  padding: 10px;
+  border: 2px solid blue;
+  margin: 5px;
+  font-size: 14px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}
+
+button {
+  border-color: blue;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: transparent;
+  padding: 3px;
+}
+
+input {
+  border-color: blue;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+input:checked + span {
+  text-decoration: line-through;
+}
